@@ -89,13 +89,13 @@ Exercises will be assigned in each class and are due before the next class.
 
 Each exercise will have a Colab/Jupyter notebook available on the [course GitHub repository](https://github.com/ncsg/ursp688y_sp2024). Please use this standard GitHub workflow to submit each exercise (we'll go over this in class):
 
-1. Fork the course GitHub repo to your own account
+0. Fork the course GitHub repo to your own account
  (you'll probably only have to do this once at the beginning of the course)
-2. Make a copy of the notebook in your own fork with you last name as an underscored suffix
+1. Make a copy of the notebook in your own fork with you last name as an underscored suffix
  (e.g., `exercise01_harvey.ipynb`)
-3. Complete the exercise in your copy of the notebook
-4. Commit your notebook (and any other necessary files) to your fork
-5. Make a pull request of your fork to the course repo
+2. Complete the exercise in your copy of the notebook
+3. Commit your notebook (and any other necessary files) to your fork
+4. Make a pull request of your fork to the course repo
 
 Please note that all pull requests to course repo will be publicly viewable.
 
