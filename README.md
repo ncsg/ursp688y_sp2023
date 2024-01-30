@@ -15,23 +15,23 @@ This repository contains files and other course content for URSP688Y, *Urban Dat
 Students should submit all assignments as pull requests to this repository. Any submitted materials will be public.
 
 ## Quick Links & Overview
-||||
-|:--|:--|:--|
-|[Week 1: Jan 29](#january-29th-week-1)|Course Introduction, Programming Fundamentals|***In-Person***|
-|[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Week 4: Feb 19](#february-19th-week-4)|Reproducability & Collaboration|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Week 5: Feb 26](#february-26th-week-5)|Accessing and Wrangling Data|***In-Person***|
-|[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|
-|[Week 8: Mar 25](#march-25th-week-8)|Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|
-|[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Week 10: Apr 8](#april-8th-week-10)|BI Software|***In-Person***|
-|[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Week 12: Apr 22](#april-22nd-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Week 13: Apr 29](#april-29th-week-13)|(student-requested topic)|[Zoom](https://umd.zoom.us/j/97370863271)|
-|[Week 14: May 6](#may-6th-week-14)|Final Project Presentations|***In-Person***|
+|Week|Topic|Format|Discussion Leader|Demo|Exercise|
+|:--|:--|:--|:--|:--|:--|
+|[Week 1: Jan 29](#january-29th-week-1)|[Course Introduction](https://docs.google.com/presentation/d/1vllGdhjq-d0KDmlYgA3P2gRUajX4qryOYB5n8_H7aEw/edit?usp=sharing), Programming Fundamentals|***In-Person***|-|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo01/demo01.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise01/exercise01.ipynb)|
+|[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 4: Feb 19](#february-19th-week-4)|Reproducability & Collaboration|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 5: Feb 26](#february-26th-week-5)|Accessing and Wrangling Data|***In-Person***|Mimi Sanford|||
+|[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
+|[Week 8: Mar 25](#march-25th-week-8)|Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|-|-|-|
+|[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 10: Apr 8](#april-8th-week-10)|BI Software|***In-Person***||||
+|[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 12: Apr 22](#april-22nd-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 13: Apr 29](#april-29th-week-13)|(student-requested topic)|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 14: May 6](#may-6th-week-14)|Final Project Presentations|***In-Person***|-|-|-|
 
 ## Technology
 
@@ -122,11 +122,11 @@ Projects may take two forms: (1) a functioning analysis with input data and a co
 
 ### Functional Analysis
 
-You will develop a well-documented repository of data and code, along with a short accompanying narrative describing the project's motivation, central question, approach, results, and discussion of their meaning. The narrative may be either a traditional paper or a customized webpage/site/app that combines text and graphics. Narratives for this option are expected to be approximately 1,500 words (3 pages, single spaced).
+You will develop a well-documented repository of data and code, along with a short accompanying narrative describing the project's motivation, central question, approach, results, and discussion of their meaning. The narrative may be either a traditional paper or a customized webpage/site/app that combines text and graphics. Narratives for this option are expected to be 1,000–1,500 words (2–3 pages, single spaced).
 
 ### Proposal
 
-You will write a paper with sections similar to the narrative described above, but with considerably more detail about the proposed approach. In lieu of conducting the analysis, you must convincingly portray how it will be conducted (when it is funded, of course), including proposed data sources and tools. The proposal should also include expanded discussion of smart cities theory to support and critique how your approach relates to equity, both in the substantive question it addresses and opportunities or issues it raises methodologically. This will likely draw on literature outside of what is assigned for the course. Narratives for this option are expected to be approximately 6,500 words (12 pages, single spaced).
+You will write a paper with sections similar to the narrative described above, but with considerably more detail about the proposed approach. In lieu of conducting the analysis, you must convincingly portray how it will be conducted (when it is funded, of course), including proposed data sources and tools. The proposal should also include expanded discussion of smart cities theory to support and critique how your approach relates to equity, both in the substantive question it addresses and opportunities or issues it raises methodologically. This will likely draw on literature outside of what is assigned for the course. Narratives for this option are expected to be 4,000–6,500 words (8–12 pages, single spaced).
 
 Convincing proposals are crucial in both research and practice. Imagine you are applying for a grant to fund a research project or responding to an RFP issued by a public agency. In both cases, you need to convince the reader that your approach is actionable. It should also be intelligible for a non-expert audience. Writing with this combination precision and clarity is a valuable skill to hone.
 
@@ -139,6 +139,13 @@ This is a hands-on and discussion-oriented course with only 14 scheduled meeting
 We will read Jennifer Clark's book on smart cities, _Uneven Innovation_, from cover to cover. You may want to buy a hard copy, or you can read the [ebook for free](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883) through the UMD library. All other readings are either available at links listed in the schedule or will be available on ELMS-Canvas.
 
 Clark, J. (2020). _Uneven Innovation: The Work of Smart Cities_. Columbia University Press. ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
+
+## Professional Communication
+
+Please use this course as an opportunity to practice professional communication with me and your student colleagues. Follow professional etiquette in email correspondence. Grammarly has an [excellent guide](https://www.grammarly.com/blog/email-etiquette-rules-to-know/). Please call me “Chester”; note that other professors may prefer more formal titles. Introduce your preferred pronouns—mine are he/him/his—and refer to others by their preferred pronouns.
+
+I typically read and send email during regular business hours: 9am to 5pm ET on weekdays. I aim to address time-sensitive email within one business day, but may take longer. If you send me an email on Friday, I may not get back to you until the next week.
+Please plan ahead and don’t expect an immediate response.
 
 ## Zoom Guidelines­­­—'Cameras On' Norm
 
@@ -230,30 +237,26 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### January 29th (Week 1)
 
-- Course introduction
-  - Student survey
+- [Course introduction](https://docs.google.com/presentation/d/1vllGdhjq-d0KDmlYgA3P2gRUajX4qryOYB5n8_H7aEw/edit?usp=sharing)
   - Why data science?
-    - Reproducibility
-    - Scalability
-    - Collaboration
   - Why _urban_ data science?
-  - Smart cities opportunities and challenges
+  - Opportunities and challenges
   - Plan for the semester
 - Programming fundamentals
   - Colab notebooks
-  - Intro to Python
+  - Intro to programming (with Python)
     - Why Python?
-    - Basic data structures
-      - Single objects
-      - Iterables
-    - Variables, operators, and statements
-    - Comments
-    - Debugging
-  - Pseudocode
-  - GitHub
-    - Intro
-    - Account creation
-    - Web-based exercise submission workflow
+    - Variables
+    - Syntax vs. style
+    - Basic data types
+    - Programming logic
+      - Conditions
+      - Loops
+    - Errors and debugging
+- Pseudocode
+- GitHub
+  - Intro
+  - Submitting exercises
 
 ### February 5th (Week 2)
 
