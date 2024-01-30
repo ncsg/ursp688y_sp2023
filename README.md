@@ -22,7 +22,7 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)||||
 |[Week 4: Feb 19](#february-19th-week-4)|Reproducability & Collaboration|[Zoom](https://umd.zoom.us/j/97370863271)||||
 |[Week 5: Feb 26](#february-26th-week-5)|Accessing and Wrangling Data|***In-Person***|Mimi Sanford|||
-|[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer Amanguah|||
 |[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)||||
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
 |[Week 8: Mar 25](#march-25th-week-8)|Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|-|-|-|
