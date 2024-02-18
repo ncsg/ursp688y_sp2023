@@ -317,13 +317,14 @@ This course is inspired by numerous other courses and colleagues, especially:
 ### February 19th (Week 4)
 
 - Accessing Data from Files
+  - Using a debugger (and installing packages with `pip`)
   - Connecting to Google Drive in Colab
+  - Loading data from files
+      - CSV
+      - Excel
+      - JSON
   - Repository structure
-  - Importing modules
-  - Documentation
-  - Git and GitHub
-    - Pulling, pushing, and commiting
-    - Command-based exercise submission workflow
+  - Introducing the final project
 - Reading seminar
   - Wilson, G., Aruliah, D. A., Brown, C. T., Hong, N. P. C., Davis, M., Guy, R. T., Haddock, S. H. D., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. (2014). Best Practices for Scientific Computing. _PLOS Biology_, _12_(1), e1001745. [https://doi.org/10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
   - [Chapter 4: "Smart Cities and the New Urban Entrepreneurship" (pp. 95–124)]
