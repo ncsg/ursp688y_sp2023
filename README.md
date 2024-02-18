@@ -18,24 +18,24 @@ Students should submit all assignments as pull requests to this repository. Any 
 |Week|Topic|Format|Discussion Leader|Demo|Exercise|
 |:--|:--|:--|:--|:--|:--|
 |[Week 1: Jan 29](#january-29th-week-1)|[Course Introduction](https://docs.google.com/presentation/d/1vllGdhjq-d0KDmlYgA3P2gRUajX4qryOYB5n8_H7aEw/edit?usp=sharing), Programming Fundamentals|***In-Person***|-|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo01/demo01.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise01/exercise01.ipynb)|
-|[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)||||
-|[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)||||
-|[Week 4: Feb 19](#february-19th-week-4)|Reproducability & Collaboration|[Zoom](https://umd.zoom.us/j/97370863271)||||
-|[Week 5: Feb 26](#february-26th-week-5)|Accessing and Wrangling Data|***In-Person***|Mimi Sanford|||
-|[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Alanna Anderson|||
-|[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma Walker|||
+|[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|Jesse|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo02/demo02.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise02/exercise02.ipynb)|
+|[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Kayla, Fahmi|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo03/demo03.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise03/exercise03.ipynb)|
+|[Week 4: Feb 19](#february-19th-week-4)|Accessing Data from Files|[Zoom](https://umd.zoom.us/j/97370863271)|Jona|||
+|[Week 5: Feb 26](#february-26th-week-5)|Accessing (and Wrangling) Data from the Web|***In-Person***|Mimi|||
+|[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Alanna, Salma|||
+|[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|||
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
 |[Week 8: Mar 25](#march-25th-week-8)|Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|-|-|-|
-|[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)||||
-|[Week 10: Apr 8](#april-8th-week-10)|BI Software|***In-Person***||||
-|[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|[Zoom](https://umd.zoom.us/j/97370863271)||||
-|[Week 12: Apr 22](#april-22nd-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)||||
-|[Week 13: Apr 29](#april-29th-week-13)|(student-requested topic)|[Zoom](https://umd.zoom.us/j/97370863271)||||
+|[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|||
+|[Week 10: Apr 8](#april-8th-week-10)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|||
+|[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|***In-Person***|Saiful|||||
+|[Week 12: Apr 22](#april-22nd-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
+|[Week 13: Apr 29](#april-29th-week-13)|(student-requested topic)|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|||
 |[Week 14: May 6](#may-6th-week-14)|Final Project Presentations|***In-Person***|-|-|-|
 
 ## Technology
 
-[Zoom Room](https://umd.zoom.us/j/97370863271) (Zoom classes will *not* be recorded)
+[Zoom Room](https://umd.zoom.us/j/97370863271)
 
 ### Websites
 
@@ -222,7 +222,11 @@ Urban Informatics and Visualization [Course Wiki](https://github.com/mxndrwgrdnr
 
 [Software Carpentry](https://software-carpentry.org/lessons/) (Scientific computing tutorials)
 
-[Real Python](https://realpython.com/) (Python tutorials)
+[Real Python](https://realpython.com/) (Python tutorials, monthly subscription with free trial)
+
+[datadamp](https://www.datacamp.com/) (Coding tutorials, monthly subscription with free trial)
+
+[LinkedIn Learning](https://sites.google.com/umd.edu/linkedinlearningumd/home/) (Software tutorials, free for UMD students)
 
 ## Acknowledgements
 
@@ -248,12 +252,12 @@ This course is inspired by numerous other courses and colleagues, especially:
     - Why Python?
     - Variables
     - Syntax vs. style
-    - Basic data types
-    - Programming logic
-      - Conditions
-      - Loops
-    - Errors and debugging
-- Pseudocode
+    - ~~Basic data types~~
+    - ~~Programming logic~~
+      - ~~Conditions~~
+      - ~~Loops~~
+    - ~~Errors and debugging~~
+- ~~Pseudocode~~
 - GitHub
   - Intro
   - Submitting exercises
@@ -262,34 +266,49 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 - More programming fundamentals
   - More intro to Python
+    - Basic data types
+    - Programming logic
+      - Conditions
+      - Loops
     - Functions
-    - Classes and methods
-    - Namespaces
+      - Namespaces
+    - ~~Classes and methods~~
     - Goodies
       - Conditional expressions
       - List comprehensions
-      - Recursion
-    - Packages
-    - Advanced debugging
-    - Building and troubleshooting
-      - Documentation
-      - Google
-      - Generative AI
+      - ~~Recursion~~
+    - ~~Packages~~
+    - Errors and debugging
+    - ~~Building and troubleshooting~~
+      - ~~Documentation~~
+      - ~~Google~~
+      - ~~Generative AI~~
+  - Pseudocode
 - Reading seminar
   - Somers, J. (2023). Begin End: A coder on the waning days of the craft. _New Yorker_, 99(38), 14-18. ([Direct Link](https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft)) ([UMD Link](https://web-p-ebscohost-com.proxy-um.researchport.umd.edu/ehost/detail/detail?vid=7&sid=acd05f73-fc24-46b8-84dd-909174c20503%40redis&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3D%3D#AN=173542209&db=ulh))
   - [Chapter 1: "Uneven Innovation: The Evolution of the Urban Technology Project" (pp. 1–30)] Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
 ### February 12th (Week 3)
 
-- Tabular Analysis
-  - Table structure
-    - Tidy data
-    - Wide vs. Long
-  - Numpy
-  - Pandas
-  - CSVs
-  - Parquet
-  - Databases
+- Importing packages
+- Documentation
+- Classes
+- Table structure
+  - Tidy data
+- Pandas
+  - DataFrames
+  - Calculations with columns
+  - Series
+  - Previewing
+  - Selection and filtering
+  - Grouping
+  - Apply
+  - Converting wide to long
+- Using a debugger
+- ~~Numpy~~
+- ~~CSVs~~
+- ~~Parquet~~
+- ~~Databases~~
 - Reading seminar
   - [Chapter 2: "Smart Cities as Solutions" (pp. 31–56)]
  [Chapter 3: "Smart Cities as Emerging Markets" (pp. 57–94)]
@@ -297,14 +316,15 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### February 19th (Week 4)
 
-- Reproducibility and collaboration
+- Accessing Data from Files
+  - Using a debugger (and installing packages with `pip`)
   - Connecting to Google Drive in Colab
+  - Loading data from files
+      - CSV
+      - Excel
+      - JSON
   - Repository structure
-  - Importing modules
-  - Documentation
-  - Git and GitHub
-    - Pulling, pushing, and commiting
-    - Command-based exercise submission workflow
+  - Introducing the final project
 - Reading seminar
   - Wilson, G., Aruliah, D. A., Brown, C. T., Hong, N. P. C., Davis, M., Guy, R. T., Haddock, S. H. D., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. (2014). Best Practices for Scientific Computing. _PLOS Biology_, _12_(1), e1001745. [https://doi.org/10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
   - [Chapter 4: "Smart Cities and the New Urban Entrepreneurship" (pp. 95–124)]
@@ -312,7 +332,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### February 26th (Week 5)
 
-- Accessing and wrangling data
+- Accessing (and Wrangling) Data from the Web
   - APIs
   - Parsing JSON
   - Messy data
