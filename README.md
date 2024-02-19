@@ -25,13 +25,14 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Alanna, Salma|||
 |[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|||
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
-|[Week 8: Mar 25](#march-25th-week-8)|Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|-|-|-|
+|[Week 8: Mar 25](#march-25th-week-8)|Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](#short-proposal-due-march-25th-5001000-words-10-of-course-grade)|
 |[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|||
 |[Week 10: Apr 8](#april-8th-week-10)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|||
 |[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|***In-Person***|Saiful|||||
 |[Week 12: Apr 22](#april-22nd-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
 |[Week 13: Apr 29](#april-29th-week-13)|(student-requested topic)|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|||
-|[Week 14: May 6](#may-6th-week-14)|Final Project Presentations|***In-Person***|-|-|-|
+|[Week 14: May 6](#may-6th-week-14)|Final Project Presentations|***In-Person***|-|-|[Final Project: Slides Due](#presentation-in-class-april-29th-10-minutes-10-of-course-grade)|
+|[May 13](#may-13th)|Final Project|***In-Person***|-|-|[Final Project: Final Product Due](#final-product-due-may-6th-see-above-for-recommended-lengths-and-formats-30-of-course-grade)|
 
 ## Technology
 
