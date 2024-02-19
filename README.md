@@ -20,18 +20,19 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 1: Jan 29](#january-29th-week-1)|[Course Introduction](https://docs.google.com/presentation/d/1vllGdhjq-d0KDmlYgA3P2gRUajX4qryOYB5n8_H7aEw/edit?usp=sharing), Programming Fundamentals|***In-Person***|-|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo01/demo01.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise01/exercise01.ipynb)|
 |[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|Jesse|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo02/demo02.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise02/exercise02.ipynb)|
 |[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Kayla, Fahmi|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo03/demo03.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise03/exercise03.ipynb)|
-|[Week 4: Feb 19](#february-19th-week-4)|Reproducability & Collaboration|[Zoom](https://umd.zoom.us/j/97370863271)|Jona|||
-|[Week 5: Feb 26](#february-26th-week-5)|Accessing and Wrangling Data|***In-Person***|Mimi|||
-|[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Alanna, Salma|||
+|[Week 4: Feb 19](#february-19th-week-4)|Debugging and Working with Files|[Zoom](https://umd.zoom.us/j/97370863271)|Jona|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo04/demo04.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise04/exercise04.ipynb)|
+|[Week 5: Feb 26](#march-4th-week-6)|Basic Visualization|***In-Person***|Alanna, Salma|||
+|[Week 6: Mar 4](#february-26th-week-5)|Accessing (and Wrangling) Data from the Web|[Zoom](https://umd.zoom.us/j/97370863271)|Mimi|||
 |[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|||
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
-|[Week 8: Mar 25](#march-25th-week-8)|Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|-|-|-|
+|[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Set up Miniconda and JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
 |[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|||
 |[Week 10: Apr 8](#april-8th-week-10)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|||
 |[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|***In-Person***|Saiful|||||
 |[Week 12: Apr 22](#april-22nd-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
 |[Week 13: Apr 29](#april-29th-week-13)|(student-requested topic)|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|||
-|[Week 14: May 6](#may-6th-week-14)|Final Project Presentations|***In-Person***|-|-|-|
+|[Week 14: May 6](#may-6th-week-14)|[Final Project Presentations](#presentation-in-class-april-29th-10-minutes-10-of-course-grade)|***In-Person***|-|-|[Final Project: Slides Due](https://umd.instructure.com/courses/1362486/assignments/6695884)|
+|[Week -1: May 13](#may-13th)|[Final Project](#final-product-due-may-6th-see-above-for-recommended-lengths-and-formats-30-of-course-grade)|***NO CLASS***|-|-|[Final Project: Final Product Due](https://umd.instructure.com/courses/1362486/assignments/6695886)|
 
 ## Technology
 
@@ -118,17 +119,49 @@ The course will culminate with a final project, delivered in three stages—a sh
 
 The project asks you to address a request from an imaginary planning agency for analysis of a potential equity gap within their city or region. You get to choose which region you are working for and the question you are asking about equitable outcomes. In designing your analysis and discussing the results, the agency would also like you to consider the theoretical strengths and weaknesses of using data scientific and smart cities approaches to examine equity and address inequities. Can you design an analysis that appropriately balances opportunities and concerns?
 
+#### Project Types
+
 Projects may take two forms: (1) a functioning analysis with input data and a codebase that yield reproducible results, or (2) a proposal for an analysis that could reasonably be executed.
 
-### Functional Analysis
+##### Functional Analysis
 
 You will develop a well-documented repository of data and code, along with a short accompanying narrative describing the project's motivation, central question, approach, results, and discussion of their meaning. The narrative may be either a traditional paper or a customized webpage/site/app that combines text and graphics. Narratives for this option are expected to be 1,000–1,500 words (2–3 pages, single spaced).
 
-### Proposal
+##### Proposal
 
 You will write a paper with sections similar to the narrative described above, but with considerably more detail about the proposed approach. In lieu of conducting the analysis, you must convincingly portray how it will be conducted (when it is funded, of course), including proposed data sources and tools. The proposal should also include expanded discussion of smart cities theory to support and critique how your approach relates to equity, both in the substantive question it addresses and opportunities or issues it raises methodologically. This will likely draw on literature outside of what is assigned for the course. Narratives for this option are expected to be 4,000–6,500 words (8–12 pages, single spaced).
 
 Convincing proposals are crucial in both research and practice. Imagine you are applying for a grant to fund a research project or responding to an RFP issued by a public agency. In both cases, you need to convince the reader that your approach is actionable. It should also be intelligible for a non-expert audience. Writing with this combination precision and clarity is a valuable skill to hone.
+
+#### Project Components
+
+##### Short Proposal (Due March 25th; 500–1,000 words; 10% of course grade)
+
+Write a short proposal with the following sections outlining your proposed project:
+
+1. Introduction: What is the issue you are trying to address? Why is addressing it important? How will data science/smart cities tools help you address it?
+2. Brief Background (not a full literature review): Situate the problem in the context of other work, either in practice or research. Is the place you're working in already doing something related?
+3. Objectives: What specific question will your analysis answer (narrower than the issue described in the introduction)? Are you testing a hypothesis, or looking to develop theory in a spaces that lacks it?
+4. Methods: What data will you need? What methods will you use to analyze these data?
+5. Limitations and Ethics: How will your data and methods limit your conclusions? What ethical challenges may be posed by your analysis? What are the theoretical strengths and weaknesses of using your approach?
+6. References (not included in word count): Bibliographic list of any cited works, datasets, or other materials.
+
+Please submit on ELMS as a PDF.
+
+##### Presentation (In-Class April 29th; 10 minutes; 10% of course grade)
+
+Please focus your presentation on these areas:
+
+1. Problem statement and central question
+2. Data and methods used to address
+3. What do the conclusions mean? (not just the results, but their _implications_)
+4. What challenges and limitations are posed by using your approach? How did you address any of these challenges?
+
+In addition to your in-class presentation, please submit slides on ELMS as a PDF.
+
+##### Final Product (Due May 6th; see above for recommended lengths and formats; 30% of course grade)
+
+Please submit on ELMS as a PDF with links to online content, as appropriate.
 
 ### Participation (30% of grade)
 
@@ -316,32 +349,21 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### February 19th (Week 4)
 
-- Reproducibility and collaboration
+- Debugging and Working with Files
+  - Using a debugger (and installing packages with `pip`)
   - Connecting to Google Drive in Colab
+  - Loading data from a file
+  - Tabular joining
+  - Saving data to a file
+  - Loading code from a file (module)
   - Repository structure
-  - Importing modules
-  - Documentation
-  - Git and GitHub
-    - Pulling, pushing, and commiting
-    - Command-based exercise submission workflow
+- Introducing the final project
 - Reading seminar
   - Wilson, G., Aruliah, D. A., Brown, C. T., Hong, N. P. C., Davis, M., Guy, R. T., Haddock, S. H. D., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. (2014). Best Practices for Scientific Computing. _PLOS Biology_, _12_(1), e1001745. [https://doi.org/10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
   - [Chapter 4: "Smart Cities and the New Urban Entrepreneurship" (pp. 95–124)]
  Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
 ### February 26th (Week 5)
-
-- Accessing and wrangling data
-  - APIs
-  - Parsing JSON
-  - Messy data
-  - Big data
-- Reading seminar
-  - Kitchin, R. (2014). The real-time city? Big data and smart urbanism. _GeoJournal_, _79_(1), 1–14. [https://doi.org/10.1007/s10708-013-9516-8](https://doi.org/10.1007/s10708-013-9516-8)
-  - [Chapter 5: "Smart Cities as Urban Innovation Networks" (pp. 125–155)]
- Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
-
-### March 4th (Week 6)
 
 - Basic visualization
   - Principles of graphic communication
@@ -351,6 +373,18 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Reading seminar
   - [Chapter 1: "Graphical Excellence" pp. (13–51)] Tufte, E. R. (2001). _The Visual Display of Quantitative Information, 2nd Ed._ (2nd edition). Graphics Press.
   - [Chapter 6: "Smart Cities as Participatory Planning" (pp. 156–180)]
+ Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
+
+### March 4th (Week 6)
+
+- Accessing (and Wrangling) Data from the Web
+  - APIs
+  - Parsing JSON
+  - Messy data
+  - Big data
+- Reading seminar
+  - Kitchin, R. (2014). The real-time city? Big data and smart urbanism. _GeoJournal_, _79_(1), 1–14. [https://doi.org/10.1007/s10708-013-9516-8](https://doi.org/10.1007/s10708-013-9516-8)
+  - [Chapter 5: "Smart Cities as Urban Innovation Networks" (pp. 125–155)]
  Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
 ### March 11th (Week 7)
@@ -375,9 +409,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 ***NO CLASS***
 
 - Short proposal for final project due
-- Mid-week office hours to:
-  - Discuss proposals
-  - Set up JupyterLab on personal computers if desired
+- (Optional) Mid-week tutorial to set up Miniconda and JupyterLab on personal computers
 
 ### April 1st (Week 9)
 
