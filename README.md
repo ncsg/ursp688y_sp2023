@@ -25,7 +25,7 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Alanna, Salma|||
 |[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|||
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
-|[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
+|[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Set up Miniconda and JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
 |[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|||
 |[Week 10: Apr 8](#april-8th-week-10)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|||
 |[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|***In-Person***|Saiful|||||
@@ -408,9 +408,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 ***NO CLASS***
 
 - Short proposal for final project due
-- Mid-week office hours to:
-  - Discuss proposals
-  - Set up JupyterLab on personal computers if desired
+- (Optional) Mid-week tutorial to set up Miniconda and JupyterLab on personal computers
 
 ### April 1st (Week 9)
 
