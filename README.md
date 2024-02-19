@@ -32,7 +32,7 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 12: Apr 22](#april-22nd-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
 |[Week 13: Apr 29](#april-29th-week-13)|(student-requested topic)|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|||
 |[Week 14: May 6](#may-6th-week-14)|[Final Project Presentations](#presentation-in-class-april-29th-10-minutes-10-of-course-grade)|***In-Person***|-|-|[Final Project: Slides Due](https://umd.instructure.com/courses/1362486/assignments/6695884)|
-|[May 13](#may-13th)|[Final Project](#final-product-due-may-6th-see-above-for-recommended-lengths-and-formats-30-of-course-grade)|***NO CLASS***|-|-|[Final Project: Final Product Due](https://umd.instructure.com/courses/1362486/assignments/6695886)|
+|[Week -1: May 13](#may-13th)|[Final Project](#final-product-due-may-6th-see-above-for-recommended-lengths-and-formats-30-of-course-grade)|***NO CLASS***|-|-|[Final Project: Final Product Due](https://umd.instructure.com/courses/1362486/assignments/6695886)|
 
 ## Technology
 
