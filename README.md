@@ -349,13 +349,12 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### February 19th (Week 4)
 
-- Accessing Data from Files
+- Debugging and Working with Files
   - Using a debugger (and installing packages with `pip`)
   - Connecting to Google Drive in Colab
-  - Loading data from files
-      - CSV
-      - Excel
-      - JSON
+  - Loading data from a file
+  - Saving data to a file
+  - Loading code from a file (module)
   - Repository structure
   - Introducing the final project
 - Reading seminar
