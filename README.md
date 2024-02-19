@@ -353,7 +353,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Using a debugger (and installing packages with `pip`)
   - Connecting to Google Drive in Colab
   - Loading data from a file
-  - Tabular Joining
+  - Tabular joining
   - Saving data to a file
   - Loading code from a file (module)
   - Repository structure
