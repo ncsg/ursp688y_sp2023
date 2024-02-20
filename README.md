@@ -21,8 +21,8 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|Jesse|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo02/demo02.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise02/exercise02.ipynb)|
 |[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Kayla, Fahmi|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo03/demo03.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise03/exercise03.ipynb)|
 |[Week 4: Feb 19](#february-19th-week-4)|Debugging and Working with Files|[Zoom](https://umd.zoom.us/j/97370863271)|Jona|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo04/demo04.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise04/exercise04.ipynb)|
-|[Week 5: Feb 26](#march-4th-week-6)|Basic Visualization|***In-Person***|Alanna, Salma|||
-|[Week 6: Mar 4](#february-26th-week-5)|Accessing (and Wrangling) Data from the Web|[Zoom](https://umd.zoom.us/j/97370863271)|Mimi|||
+|[Week 5: Feb 26](#march-4th-week-6)|Basic Visualization|***In-Person***|Alanna, Mimi|||
+|[Week 6: Mar 4](#february-26th-week-5)|Accessing (and Wrangling) Data from the Web|[Zoom](https://umd.zoom.us/j/97370863271)|Salma|||
 |[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|||
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
 |[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Set up Miniconda and JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
@@ -119,7 +119,7 @@ The course will culminate with a final project, delivered in three stages—a sh
 
 The project asks you to address a request from an imaginary planning agency for analysis of a potential equity gap within their city or region. You get to choose which region you are working for and the question you are asking about equitable outcomes. In designing your analysis and discussing the results, the agency would also like you to consider the theoretical strengths and weaknesses of using data scientific and smart cities approaches to examine equity and address inequities. Can you design an analysis that appropriately balances opportunities and concerns?
 
-#### Project Types
+#### Project Forms
 
 Projects may take two forms: (1) a functioning analysis with input data and a codebase that yield reproducible results, or (2) a proposal for an analysis that could reasonably be executed.
 
