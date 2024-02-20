@@ -119,7 +119,7 @@ The course will culminate with a final project, delivered in three stages—a sh
 
 The project asks you to address a request from an imaginary planning agency for analysis of a potential equity gap within their city or region. You get to choose which region you are working for and the question you are asking about equitable outcomes. In designing your analysis and discussing the results, the agency would also like you to consider the theoretical strengths and weaknesses of using data scientific and smart cities approaches to examine equity and address inequities. Can you design an analysis that appropriately balances opportunities and concerns?
 
-#### Project Types
+#### Project Forms
 
 Projects may take two forms: (1) a functioning analysis with input data and a codebase that yield reproducible results, or (2) a proposal for an analysis that could reasonably be executed.
 
