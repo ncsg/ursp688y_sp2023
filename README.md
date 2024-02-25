@@ -21,7 +21,7 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|Jesse|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo02/demo02.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise02/exercise02.ipynb)|
 |[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Kayla, Fahmi|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo03/demo03.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise03/exercise03.ipynb)|
 |[Week 4: Feb 19](#february-19th-week-4)|Debugging and Working with Files|[Zoom](https://umd.zoom.us/j/97370863271)|Jona|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo04/demo04.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise04/exercise04.ipynb)|
-|[Week 5: Feb 26](#february-26th-week-5)|Basic Visualization|***In-Person***|Alanna, Mimi|||
+|[Week 5: Feb 26](#february-26th-week-5)|Basic Data Visualization|***In-Person***|Alanna, Mimi|||
 |[Week 6: Mar 4](#march-4th-week-6)|Accessing (and Wrangling) Data from the Web|[Zoom](https://umd.zoom.us/j/97370863271)|Salma|||
 |[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|||
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
@@ -365,7 +365,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### February 26th (Week 5)
 
-- Basic visualization
+- Basic data visualization
   - Principles of graphic communication
   - Matplotlib
   - Seaborn
