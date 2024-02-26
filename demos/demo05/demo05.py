@@ -1,5 +1,13 @@
-import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-def load_affordable_housing():
-    df = pd.read_csv('affordable_housing.csv')
-    return df
+def plot_average_affordable_units_by_status(df):
+    fig = plt.figure()
+    ax = sns.barplot(df, x='MAR_WARD', y='TOTAL_AFFORDABLE_UNITS', hue="STATUS_PUBLIC")
+    ax.set(
+        xlabel=None, 
+        ylabel='Average Affordable Units per Project'
+    )
+    plt.legend(title=None, frameon=False)
+    sns.despine()
+    return fig
