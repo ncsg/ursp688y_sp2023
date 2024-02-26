@@ -366,8 +366,10 @@ This course is inspired by numerous other courses and colleagues, especially:
 ### February 26th (Week 5)
 
 - Basic data visualization
+  - PR demo: from notebook to merge
   - Principles of graphic communication
   - Matplotlib
+  - Pandas `plot` method
   - Seaborn
   - Export to Illustrator
 - Reading seminar
