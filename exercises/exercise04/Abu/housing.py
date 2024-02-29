@@ -1,32 +1,16 @@
 # Import dependencies
 import pandas as pd
-import os
-
-#mount mount google drive
-from google.colab import drive
-drive.mount('/content/drive')
-
-#working dir
-abs_path ='/content/drive/MyDrive/ursp688y_shared_data/ursp688y_shared_data/affordable_housing.csv'
-os.path.isfile(abs_path)
-
-df = pd.read_csv('/content/drive/MyDrive/ursp688y_shared_data/ursp688y_shared_data/affordable_housing.csv')
-
-import pandas as pd
-abs_path = '/content/drive/MyDrive/ursp688y_shared_data/ursp688y_shared_data/wards_from_2022(1).csv'
-os.path.isfile(abs_path)
-
-wd2 = pd.read_csv('/content/drive/MyDrive/ursp688y_shared_data/ursp688y_shared_data/Wards_from_2022.csv')
-wd2.head()
 
 #create function
 def john():
 
-    df = pd.read_csv('/content/drive/MyDrive/ursp688y_shared_data/ursp688y_shared_data/affordable_housing.csv')
+    # df = pd.read_csv('/content/drive/MyDrive/ursp688y_shared_data/ursp688y_shared_data/affordable_housing.csv')
+    df = pd.read_csv('affordable_housing.csv')
     value_counts = df['STATUS_PUBLIC'].value_counts()
     value_counts
 
-    wd2 = pd.read_csv('/content/drive/MyDrive/ursp688y_shared_data/ursp688y_shared_data/Wards_from_2022.csv')
+    # wd2 = pd.read_csv('/content/drive/MyDrive/ursp688y_shared_data/ursp688y_shared_data/Wards_from_2022.csv')
+    wd2 = pd.read_csv('wards_from_2022.csv')
     wd2.head()
 
     filtered_df = df[(df["STATUS_PUBLIC"].str.contains("Under Construction")) | (df["STATUS_PUBLIC"].str.contains("Pipeline"))]
@@ -35,7 +19,7 @@ def john():
     ward_units_filtered=filtered_df[["MAR_WARD","AFFORDABLE_UNITS_AT_0_30_AMI", "AFFORDABLE_UNITS_AT_31_50_AMI", "AFFORDABLE_UNITS_AT_51_60_AMI"]]
 
     #Group units under wards
-    ward_units = filtered_df.groupby("MAR_WARD")["AFFORDABLE_UNITS_AT_0_30_AMI", "AFFORDABLE_UNITS_AT_31_50_AMI", "AFFORDABLE_UNITS_AT_51_60_AMI"].sum()
+    ward_units = filtered_df.groupby("MAR_WARD")[["AFFORDABLE_UNITS_AT_0_30_AMI", "AFFORDABLE_UNITS_AT_31_50_AMI", "AFFORDABLE_UNITS_AT_51_60_AMI"]].sum()
     ward_units
 
     #Add ward units under 60%
