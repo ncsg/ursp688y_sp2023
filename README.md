@@ -20,12 +20,12 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 1: Jan 29](#january-29th-week-1)|[Course Introduction](https://docs.google.com/presentation/d/1vllGdhjq-d0KDmlYgA3P2gRUajX4qryOYB5n8_H7aEw/edit?usp=sharing), Programming Fundamentals|***In-Person***|-|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo01/demo01.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise01/exercise01.ipynb)|
 |[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|Jesse|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo02/demo02.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise02/exercise02.ipynb)|
 |[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Kayla, Fahmi|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo03/demo03.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise03/exercise03.ipynb)|
-|[Week 4: Feb 19](#february-19th-week-4)|Accessing Data from Files|[Zoom](https://umd.zoom.us/j/97370863271)|Jona|||
-|[Week 5: Feb 26](#february-26th-week-5)|Accessing (and Wrangling) Data from the Web|***In-Person***|Mimi|||
-|[Week 6: Mar 4](#march-4th-week-6)|Basic Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Alanna, Salma|||
+|[Week 4: Feb 19](#february-19th-week-4)|Debugging and Working with Files|[Zoom](https://umd.zoom.us/j/97370863271)|Jona|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo04/demo04.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise04/exercise04.ipynb)|
+|[Week 5: Feb 26](#february-26th-week-5)|Basic Data Visualization|***In-Person***|Alanna, Mimi|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo05/demo05.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise05/exercise05.ipynb)||
+|[Week 6: Mar 4](#march-4th-week-6)|Accessing (and Wrangling) Data from the Web|[Zoom](https://umd.zoom.us/j/97370863271)|Salma|||
 |[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|||
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
-|[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Proposal Office Hours, Set up JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
+|[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Set up Miniconda and JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
 |[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|||
 |[Week 10: Apr 8](#april-8th-week-10)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|||
 |[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|***In-Person***|Saiful|||||
@@ -119,7 +119,7 @@ The course will culminate with a final project, delivered in three stages—a sh
 
 The project asks you to address a request from an imaginary planning agency for analysis of a potential equity gap within their city or region. You get to choose which region you are working for and the question you are asking about equitable outcomes. In designing your analysis and discussing the results, the agency would also like you to consider the theoretical strengths and weaknesses of using data scientific and smart cities approaches to examine equity and address inequities. Can you design an analysis that appropriately balances opportunities and concerns?
 
-#### Project Types
+#### Project Forms
 
 Projects may take two forms: (1) a functioning analysis with input data and a codebase that yield reproducible results, or (2) a proposal for an analysis that could reasonably be executed.
 
@@ -349,21 +349,35 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### February 19th (Week 4)
 
-- Accessing Data from Files
+- Debugging and Working with Files
   - Using a debugger (and installing packages with `pip`)
   - Connecting to Google Drive in Colab
-  - Loading data from files
-      - CSV
-      - Excel
-      - JSON
+  - Loading data from a file
+  - Tabular joining
+  - Saving data to a file
+  - Loading code from a file (module)
   - Repository structure
-  - Introducing the final project
+- Introducing the final project
 - Reading seminar
   - Wilson, G., Aruliah, D. A., Brown, C. T., Hong, N. P. C., Davis, M., Guy, R. T., Haddock, S. H. D., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. (2014). Best Practices for Scientific Computing. _PLOS Biology_, _12_(1), e1001745. [https://doi.org/10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
   - [Chapter 4: "Smart Cities and the New Urban Entrepreneurship" (pp. 95–124)]
  Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
 ### February 26th (Week 5)
+
+- Basic data visualization
+  - PR demo: from notebook to merge
+  - Principles of graphic communication
+  - Matplotlib
+  - Pandas `plot` method
+  - Seaborn
+  - Export to Illustrator
+- Reading seminar
+  - [Chapter 1: "Graphical Excellence" pp. (13–51)] Tufte, E. R. (2001). _The Visual Display of Quantitative Information, 2nd Ed._ (2nd edition). Graphics Press.
+  - [Chapter 6: "Smart Cities as Participatory Planning" (pp. 156–180)]
+ Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
+
+### March 4th (Week 6)
 
 - Accessing (and Wrangling) Data from the Web
   - APIs
@@ -373,18 +387,6 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Reading seminar
   - Kitchin, R. (2014). The real-time city? Big data and smart urbanism. _GeoJournal_, _79_(1), 1–14. [https://doi.org/10.1007/s10708-013-9516-8](https://doi.org/10.1007/s10708-013-9516-8)
   - [Chapter 5: "Smart Cities as Urban Innovation Networks" (pp. 125–155)]
- Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
-
-### March 4th (Week 6)
-
-- Basic visualization
-  - Principles of graphic communication
-  - Matplotlib
-  - Seaborn
-  - Export to Illustrator
-- Reading seminar
-  - [Chapter 1: "Graphical Excellence" pp. (13–51)] Tufte, E. R. (2001). _The Visual Display of Quantitative Information, 2nd Ed._ (2nd edition). Graphics Press.
-  - [Chapter 6: "Smart Cities as Participatory Planning" (pp. 156–180)]
  Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
 ### March 11th (Week 7)
@@ -409,9 +411,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 ***NO CLASS***
 
 - Short proposal for final project due
-- Mid-week office hours to:
-  - Discuss proposals
-  - Set up JupyterLab on personal computers if desired
+- (Optional) Mid-week tutorial to set up Miniconda and JupyterLab on personal computers
 
 ### April 1st (Week 9)
 
