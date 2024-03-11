@@ -1,6 +1,3 @@
-# Plot.py
-
-from google.colab import drive
 import pandas as pd
 import matplotlib.pyplot as plt
 
