@@ -7,7 +7,7 @@ def ward_affordable_sum_graph(columns_list,mask_column):
   df_mask = df[(df['STATUS_PUBLIC'] == mask_column)]
   #sum horizontally across the three affordability columns
   df_mask['ProjectUnits'] = df_mask[columns_list].sum(axis=1)
-  graph = sns.countplot(df_mask,x='MAR_WARD',order=df2['MAR_WARD'].value_counts().index)
+  graph = sns.countplot(df_mask,x='MAR_WARD',order=df['MAR_WARD'].value_counts().index)
   return graph
 
 
