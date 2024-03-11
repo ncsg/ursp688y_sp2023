@@ -1,15 +1,14 @@
 
+#import modules
+import os
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import xticks
+
 def plot_affordable_units_ward2():
-
-    #import modules
-    import os
-    import pandas as pd
-    import numpy as np
-    import seaborn as sns
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    from matplotlib.pyplot import xticks
-
     # set directory
     wd_path = '/content/drive/MyDrive/Colab Notebooks/exercise 05'
     os.chdir(wd_path)
