@@ -7,11 +7,8 @@ def load_and_prepare_housing_data(file_path):
     if not os.path.isfile(file_path):
         print(f"File does not exist: {file_path}")
         return None
-
     housing_project = pd.read_csv(file_path)
-    
     housing_project.at[housing_project[housing_project['MAR_WARD'] == '1'].index[0], 'MAR_WARD'] = 'Ward 1'
-    
     return housing_project
 
 def plot_project_status_by_ward(housing_project):
@@ -39,8 +36,8 @@ def plot_affordable_units_by_ward(housing_project, status_category, ami_range):
     plt.tight_layout()
     plt.show()
 
-file_path = '/content/drive/MyDrive/Tayo Exercise/affordable_housing.csv'
-housing_project = load_and_prepare_housing_data(file_path)
-if housing_project is not None:
-    plot_project_status_by_ward(housing_project)
-    plot_affordable_units_by_ward(housing_project, 'Under Construction', '0_30')
+# file_path = '/content/drive/MyDrive/Tayo Exercise/affordable_housing.csv'
+# housing_project = load_and_prepare_housing_data(file_path)
+# if housing_project is not None:
+#     plot_project_status_by_ward(housing_project)
+#     plot_affordable_units_by_ward(housing_project, 'Under Construction', '0_30')
