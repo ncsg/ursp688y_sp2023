@@ -109,9 +109,9 @@ Exercises will be graded out of 10 points based on this rubric:
 - 10: readable and logical code or pseudocode; clean result
 - 11: wow
 
-Free pass: There are 11 exercises, but only the 10 best grades will count.
+Free pass: Your lowest exercise grade (including a 0 if you just don't turn one in) will be dropped.
 
-Late submissions will not be accepted.
+Submissions more than one week late will not be accepted.
 
 ### Final Project (50% of grade)
 
