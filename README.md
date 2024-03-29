@@ -397,7 +397,6 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Coordinate systems
   - Shapely
   - Geopandas
-  - Overlap and proximity analyses
 - Reading seminar
   - Hanna, R., Kreindler, G., & Olken, B. A. (2017). Citywide effects of high-occupancy vehicle restrictions: Evidence from "three-in-one" in Jakarta. _Science_, _357_(6346), 89–93. [https://doi.org/10.1126/science.aan2747](https://doi.org/10.1126/science.aan2747)
   - Peng, Q., Knaap, G., & Finio, N. (2023). Do Multifamily unit Rents Increase in Response to Light Rail in the Pre-service Period? _International Regional Science Review_, 01600176231162563. [https://doi.org/10.1177/01600176231162563](https://doi.org/10.1177/01600176231162563)
@@ -415,10 +414,8 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### April 1st (Week 9)
 
-- Spatial visualization
-  - Making good maps
-  - Basemaps
-  - Carto
+- Geospatial data (cont.)
+  - Overlap and proximity analyses
 - Reading seminar
   - [read "Introduction" (pp. 20–33) + skim the rest] Cheshire, J., & Uberti, O. (2014). _London: The Information Capital_. Particular Books.
   - [Chapter 7: "Smart Cities as the New Uneven Development" (pp. 181–200)]
@@ -426,7 +423,10 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### April 8th (Week 10)
 
-- BI software: Tableau (guest lecture from Alibi Shokputov)
+- Spatial visualization
+  - Making good maps
+  - Basemaps
+  - Carto
 - Reading seminar
   - Hatch, M. E., Raymond, E. L., Teresa, B. F., & Howell, K. (2023). A data feminist approach to urban data practice: Tenant power through eviction data. _Journal of Urban Affairs_, _0_(0), 1–20. [https://doi.org/10.1080/07352166.2023.2262629](https://doi.org/10.1080/07352166.2023.2262629)
   - [choose one chapter] D'Ignazio, C., & Klein, L. F. (2020). _Data Feminism_. The MIT Press. [https://doi.org/10.7551/mitpress/11805.001.0001](https://doi.org/10.7551/mitpress/11805.001.0001)
@@ -442,9 +442,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### April 22nd (Week 12)
 
-- Machine learning
-  - Clustering
-  - Sentiment analysis
+- BI software: Tableau (guest lecture from Alibi Shokputov)
 - Reading seminar
   - Goodspeed, R. (2022). Leveraging the promise of smart cities to advance smart growth. In _Handbook on Smart Growth_ (pp. 307–322). Edward Elgar Publishing. [https://www.elgaronline.com/edcollchap/book/9781789904697/book-part-9781789904697-31.xml](https://www.elgaronline.com/edcollchap/book/9781789904697/book-part-9781789904697-31.xml)
   - [Chapter 8: "Conclusions: The Local Is (Not) the Enemy" (pp. 201–216)]
@@ -452,7 +450,9 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### April 29th (Week 13)
 
-- [lab space held for a student-requested topic]
+- Machine learning
+  - Clustering
+  - Sentiment analysis
 - Reading seminar
   - Kandt, J., & Batty, M. (2021). Smart cities, big data and urban policy: Towards urban analytics for the long run. _Cities_, _109_, 102992. [https://doi.org/10.1016/j.cities.2020.102992](https://doi.org/10.1016/j.cities.2020.102992)
   - [Epilogue: "The View from Inside the Urban Innovation Project" (pp. 217–230)]
