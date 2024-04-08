@@ -27,7 +27,7 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
 |[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Set up Miniconda and JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
 |[Week 9: Apr 1](#april-1st-week-9)|Geospatial Data (cont.)|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo09/demo09.ipynb)||
-|[Week 10: Apr 8](#april-8th-week-10)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|||
+|[Week 10: Apr 8](#april-8th-week-10)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|(https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo10/demo10.ipynb)||
 |[Week 11: Apr 15](#april-15th-week-11)|Spatial Visualization|***In-Person***|Saiful|||||
 |[Week 12: Apr 22](#april-22nd-week-12)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
 |[Week 13: Apr 29](#april-29th-week-13)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|||
