@@ -26,11 +26,11 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo07/demo07.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise07/exercise07.ipynb)|
 |[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
 |[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Set up Miniconda and JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
-|[Week 9: Apr 1](#april-1st-week-9)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|||
-|[Week 10: Apr 8](#april-8th-week-10)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|||
-|[Week 11: Apr 15](#april-15th-week-11)|Advanced Spatial Analysis|***In-Person***|Saiful|||||
-|[Week 12: Apr 22](#april-22nd-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
-|[Week 13: Apr 29](#april-29th-week-13)|(student-requested topic)|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|||
+|[Week 9: Apr 1](#april-1st-week-9)|Geospatial Data (cont.)|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo09/demo09.ipynb)||
+|[Week 10: Apr 8](#april-8th-week-10)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo10/demo10.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise10/exercise10.ipynb)|
+|[Week 11: Apr 15](#april-15th-week-11)|Spatial Visualization|***In-Person***|Saiful|||||
+|[Week 12: Apr 22](#april-22nd-week-12)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
+|[Week 13: Apr 29](#april-29th-week-13)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|||
 |[Week 14: May 6](#may-6th-week-14)|[Final Project Presentations](#presentation-in-class-april-29th-10-minutes-10-of-course-grade)|***In-Person***|-|-|[Final Project: Slides Due](https://umd.instructure.com/courses/1362486/assignments/6695884)|
 |[Week -1: May 13](#may-13th)|[Final Project](#final-product-due-may-6th-see-above-for-recommended-lengths-and-formats-30-of-course-grade)|***NO CLASS***|-|-|[Final Project: Final Product Due](https://umd.instructure.com/courses/1362486/assignments/6695886)|
 
@@ -397,7 +397,6 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Coordinate systems
   - Shapely
   - Geopandas
-  - Overlap and proximity analyses
 - Reading seminar
   - Hanna, R., Kreindler, G., & Olken, B. A. (2017). Citywide effects of high-occupancy vehicle restrictions: Evidence from "three-in-one" in Jakarta. _Science_, _357_(6346), 89–93. [https://doi.org/10.1126/science.aan2747](https://doi.org/10.1126/science.aan2747)
   - Peng, Q., Knaap, G., & Finio, N. (2023). Do Multifamily unit Rents Increase in Response to Light Rail in the Pre-service Period? _International Regional Science Review_, 01600176231162563. [https://doi.org/10.1177/01600176231162563](https://doi.org/10.1177/01600176231162563)
@@ -415,10 +414,8 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### April 1st (Week 9)
 
-- Spatial visualization
-  - Making good maps
-  - Basemaps
-  - Carto
+- Geospatial data (cont.)
+  - Overlap and proximity analyses
 - Reading seminar
   - [read "Introduction" (pp. 20–33) + skim the rest] Cheshire, J., & Uberti, O. (2014). _London: The Information Capital_. Particular Books.
   - [Chapter 7: "Smart Cities as the New Uneven Development" (pp. 181–200)]
@@ -426,25 +423,24 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### April 8th (Week 10)
 
-- BI software: Tableau (guest lecture from Alibi Shokputov)
+- Network analysis
 - Reading seminar
   - Hatch, M. E., Raymond, E. L., Teresa, B. F., & Howell, K. (2023). A data feminist approach to urban data practice: Tenant power through eviction data. _Journal of Urban Affairs_, _0_(0), 1–20. [https://doi.org/10.1080/07352166.2023.2262629](https://doi.org/10.1080/07352166.2023.2262629)
   - [choose one chapter] D'Ignazio, C., & Klein, L. F. (2020). _Data Feminism_. The MIT Press. [https://doi.org/10.7551/mitpress/11805.001.0001](https://doi.org/10.7551/mitpress/11805.001.0001)
 
 ### April 15th (Week 11)
 
-- Advanced spatial analysis
-  - Networks
-  - Point patterns
+- Spatial visualization
+  - Making good maps
+  - Basemaps
+  - Carto
 - Reading seminar
   - Pereira, R. H. M. (2019). Future accessibility impacts of transport policy scenarios: Equity and sensitivity to travel time thresholds for Bus Rapid Transit expansion in Rio de Janeiro. _Journal of Transport Geography_, _74_, 321–332. [https://doi.org/10.1016/j.jtrangeo.2018.12.005](https://doi.org/10.1016/j.jtrangeo.2018.12.005)
   - Block, J. P., Scribner, R. A., & DeSalvo, K. B. (2004). Fast food, race/ethnicity, and income: A geographic analysis. _American Journal of Preventive Medicine_, _27_(3), 211–217. [https://doi.org/10.1016/j.amepre.2004.06.007](https://doi.org/10.1016/j.amepre.2004.06.007)
 
 ### April 22nd (Week 12)
 
-- Machine learning
-  - Clustering
-  - Sentiment analysis
+- BI software: Tableau (guest lecture from Alibi Shokputov)
 - Reading seminar
   - Goodspeed, R. (2022). Leveraging the promise of smart cities to advance smart growth. In _Handbook on Smart Growth_ (pp. 307–322). Edward Elgar Publishing. [https://www.elgaronline.com/edcollchap/book/9781789904697/book-part-9781789904697-31.xml](https://www.elgaronline.com/edcollchap/book/9781789904697/book-part-9781789904697-31.xml)
   - [Chapter 8: "Conclusions: The Local Is (Not) the Enemy" (pp. 201–216)]
@@ -452,7 +448,9 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ### April 29th (Week 13)
 
-- [lab space held for a student-requested topic]
+- Machine learning
+  - Clustering
+  - Sentiment analysis
 - Reading seminar
   - Kandt, J., & Batty, M. (2021). Smart cities, big data and urban policy: Towards urban analytics for the long run. _Cities_, _109_, 102992. [https://doi.org/10.1016/j.cities.2020.102992](https://doi.org/10.1016/j.cities.2020.102992)
   - [Epilogue: "The View from Inside the Urban Innovation Project" (pp. 217–230)]
