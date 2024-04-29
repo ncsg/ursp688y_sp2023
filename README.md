@@ -148,7 +148,7 @@ Write a short proposal with the following sections outlining your proposed proje
 
 Please submit on ELMS as a PDF.
 
-##### Presentation (In-Class April 29th; 10 minutes; 10% of course grade)
+##### Presentation (In-Class April 29th; 8 minutes; 10% of course grade)
 
 Please focus your presentation on these areas:
 
