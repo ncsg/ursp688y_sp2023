@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20140501</pubdate>
+                <title>Maryland Protected Lands - Local Protected Lands</title>
+                <onlink>https://geodata.md.gov/imap/rest/services/Environment/MD_ProtectedLands/FeatureServer/5</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This data illustrates parcels subject to some type of preservation easement as well as properties owned by federal, state, and local governments. In addition, properties owned by local land trusts and private conservation organizations such as The Nature Conservancy are included. Conversation easements include easements from the Maryland Agricultural Land Preservation Foundation (MALPF), Rural Legacy, Forest Legacy, Maryland Environmental Trust (MET), county and state purchases of development rights, transfers of development rights, open space from home owners associations, local open space requirements, and private conservation easements. This data is complied from settlement data directly from conservation program administrators, county GIS updates on preservation activities, and public available data from the Maryland Department of Natural Resources. In addition, this data is in the process of being realigned to the 2012 IMAP parcel polygons. The realignments at available on a county by county basis depending on the production schedule.This is a MD iMAP hosted service. Find more information at https://imap.maryland.gov.Feature Service Link:https://geodata.md.gov/imap/rest/services/Environment/MD_ProtectedLands/FeatureServer/5</abstract>
+            <purpose>Maryland Protected Lands - Local Protected Lands</purpose>
+        </descript>
+        <status>
+            <update>As needed</update>
+        </status>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>ENVL</themekey>
+                <themekey>Environment</themekey>
+                <themekey>Protected Lands</themekey>
+                <themekey>Conservation</themekey>
+                <themekey>MD</themekey>
+                <themekey>Maryland</themekey>
+                <themekey>MD iMAP</themekey>
+                <themekey>DNR</themekey>
+                <themekey>MDA</themekey>
+                <themekey>MDP</themekey>
+                <themekey>WMS</themekey>
+                <themekey>WFS</themekey>
+                <themekey>KML</themekey>
+                <themekey>Dynamic</themekey>
+                <themekey>Vector</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The Spatial Data, and the information therein, (collectively the "Data") is provided "as is" without warranty of any kind, either expressed, implied, or statutory. The user assumes the entire risk as to quality and performance of the Data. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the State of Maryland be liable for direct, indirect, incidental, consequential or special damages of any kind. The State of Maryland does not accept liability for any damages or misrepresentation caused by inaccuracies in the Data or as a result to changes to the Data, nor is there responsibility assumed to maintain the Data in any manner or form. The Data can be freely distributed as long as the metadata entry is not modified or deleted. Any data derived from the Data must acknowledge the State of Maryland in the metadata.</useconst>
+        <datacred>MD iMAP, MDP</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20170905</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
