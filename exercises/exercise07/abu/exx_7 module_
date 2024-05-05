@@ -1,0 +1,111 @@
+
+# Import dependencies
+import pandas as pd
+import os
+os.getcwd()
+
+# Import dependencies
+import pandas as pd
+import os
+os.getcwd()
+
+Mount drive 
+from google.colab import drive
+drive.mount('/content/drive')
+
+Set Directory
+os.chdir('/content/drive/MyDrive/PYTHON PROJECT')
+os.listdir()
+
+import geopandas as gpd
+import matplotlib.pyplot as plt
+
+#Define coordinate systems
+UTM18 = 26918
+WGS84 = 4326
+
+# Read the shapefiles
+dcboundary = gpd.read_file('/content/drive/MyDrive/PYTHON PROJECT/Washington_DC_Boundary/Washington_DC_Boundary.shp')
+busroute = gpd.read_file('/content/drive/MyDrive/PYTHON PROJECT/Metro_Bus_Lines/Metro_Bus_Lines.shp')
+shapefilestops = gpd.read_file('/content/drive/MyDrive/PYTHON PROJECT/Metro_Bus_Stops/Metro_Bus_Stops.shp')
+house = gpd.read_file('/content/drive/MyDrive/PYTHON PROJECT/Affordable_Housing 3/Affordable_Housing.shp')
+
+#Filter to select on projects with affordable unit under 0-30 AMI
+filtered_house = house[house['AFFORDABLE'] > 1]
+# #filtered_house.plot()
+
+# Project all GeoDataFrames to UTM zone 18N (EPSG code 26918)
+dcboundary = dcboundary.to_crs(UTM18)
+busroute = busroute.to_crs(UTM18)
+shapefilestops = shapefilestops.to_crs(UTM18)
+house = house.to_crs(UTM18)
+
+Import Dependencies for map Plotting 
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+
+# Define the legend labels and colors
+legend_labels = ['Bus Route', 'Bus Stops', 'Affordable Housing']
+legend_colors = ['blue', 'red', 'green']
+
+# Create a new plot
+fig, ax = plt.subplots()
+
+# Plot the DC Boundary shapefile  with outline
+dcboundary.plot(ax=ax, edgecolor='black', facecolor='none')
+
+# Clip bus routes layer to the boundary of DC
+clipped_shapefile2 = gpd.clip(busroute, dcboundary)
+
+# Plot the clipped bus route
+clipped_shapefile2.plot(ax=ax)
+
+# Clip bus stop feature to the boundary of DC
+clipped_shapefilestops = gpd.clip(shapefilestops, dcboundary)
+
+# Plot the clipped bus stops
+clipped_shapefilestops.plot(ax=ax, color='red', markersize=5)
+
+clipped_filtered_house = gpd.clip(filtered_house, dcboundary)
+clipped_filtered_house.plot(ax=ax, color='green', markersize=5)
+
+
+# Add legend 
+legend_elements = [
+    Line2D([0], [0], color='blue', lw=2, label='Bus Route'),
+    Line2D([0], [0], marker='o', color='w', markerfacecolor='red', markersize=10, label='Bus Stops'),
+    Line2D([0], [0], marker='o', color='w', markerfacecolor='green', markersize=10, label='Affordable Housing')
+]
+ax.legend(handles=legend_elements)
+
+# Add north arrow
+ax.annotate('N', xy=(0.5, 0.95), xytext=(0.5, 1.0), arrowprops=dict(facecolor='black', shrink=0.05))
+
+
+# Show the plot
+plt.show()
+
+Total route distance
+busroute_utm = busroute.to_crs(epsg=UTM18)
+# Calculate the total length of all bus routes in UTM zone 18N
+total_length_utm = busroute_utm.geometry.length.sum()
+
+print("Total length of bus routes in UTM zone 18N (in meters):", total_length_utm)
+
+Average distance to a bus route
+import numpy as np
+# Calculate the distance from each point in clipped_filtered_house to the nearest point on the bus route
+distances = clipped_filtered_house.geometry.apply(lambda point: clipped_shapefile2.distance(point))
+# Take the mean of the distances
+average_distance = np.mean(distances)
+
+print("Average distance from clipped_filtered_house to clipped bus route:", average_distance)
+
+Closet distance to a bust stop
+
+# Calculate the distance from each point in clipped_filtered_house to the nearest point on the shapefilestops
+distances_to_stops = clipped_filtered_house.geometry.apply(lambda point: clipped_shapefilestops.distance(point))
+
+# Take the mean of the distances
+average_distance_to_stops = np.mean(distances_to_stops)
+print("Average distance from clipped_filtered_house to nearest shapefile stops:", average_distance_to_stops)
