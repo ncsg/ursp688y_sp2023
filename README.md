@@ -28,9 +28,9 @@ Students should submit all assignments as pull requests to this repository. Any 
 |[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Set up Miniconda and JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
 |[Week 9: Apr 1](#april-1st-week-9)|Geospatial Data (cont.)|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo09/demo09.ipynb)||
 |[Week 10: Apr 8](#april-8th-week-10)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo10/demo10.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise10/exercise10.ipynb)|
-|[Week 11: Apr 15](#april-15th-week-11)|Spatial Visualization|***In-Person***|Saiful|||||
-|[Week 12: Apr 22](#april-22nd-week-12)|BI Software|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
-|[Week 13: Apr 29](#april-29th-week-13)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|||
+|[Week 11: Apr 15](#april-15th-week-11)|Spatial Visualization|***In-Person***|Saiful|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo11/demo11.ipynb)||
+|[Week 12: Apr 22](#april-22nd-week-12)|[BI Software](https://umd.instructure.com/courses/1362486/files/folder/Uploaded%20Media?preview=78327552)|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
+|[Week 13: Apr 29](#april-29th-week-13)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo13/demo13.ipynb)||
 |[Week 14: May 6](#may-6th-week-14)|[Final Project Presentations](#presentation-in-class-april-29th-10-minutes-10-of-course-grade)|***In-Person***|-|-|[Final Project: Slides Due](https://umd.instructure.com/courses/1362486/assignments/6695884)|
 |[Week -1: May 13](#may-13th)|[Final Project](#final-product-due-may-6th-see-above-for-recommended-lengths-and-formats-30-of-course-grade)|***NO CLASS***|-|-|[Final Project: Final Product Due](https://umd.instructure.com/courses/1362486/assignments/6695886)|
 
@@ -148,7 +148,7 @@ Write a short proposal with the following sections outlining your proposed proje
 
 Please submit on ELMS as a PDF.
 
-##### Presentation (In-Class April 29th; 10 minutes; 10% of course grade)
+##### Presentation (In-Class April 29th; 8 minutes; 10% of course grade)
 
 Please focus your presentation on these areas:
 
