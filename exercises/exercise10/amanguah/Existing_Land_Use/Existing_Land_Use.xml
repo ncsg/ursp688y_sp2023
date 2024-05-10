@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20230808</pubdate>
+                <title>Existing Land Use</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>A generalized dataset of existing land use in the District of Columbia as existed during its most recent extract of the common ownership lots. This dataset is different from the Comprehensive Plan - Future Land Use, which shows land use as envisioned in the latest version of DC’s Comprehensive Plan. The primary land use categories used in this dataset are similar, but not identical. The Office of the Chief Technology Officer (OCTO) compared two datasets to create this generalized existing land use data. The data source identifying property use is the Property Use Code Lookup from the Office of Tax and Revenue (OTR). An index provided by the Office of Planning assigns each OTR property use code with a “primary land use” designation. Through an automated process, the common ownership lots were then joined with this index to create the Existing Land Use. Only properties with an assigned use code from OTR are categorized. Other properties without a use code were left as NULL. Many of these tend to be public lands such as national parks. Refer to https://opendata.dc.gov/pages/public-lands.This dataset has no legal status and is intended primarily as a resource and informational tool. The Office of the Chief Technology Officer anticipates replicating this work annually.</abstract>
+            <purpose>A generalized dataset of existing land use in the District of Columbia as it existed during the most recent extract of the common ownership lots in August 2023.</purpose>
+            <supplinf>This layer was created by joining the Office of Tax and Revenue property use codes with the Office of Planning primary land use designations. This dataset has no legal status and is intended primarily as an informational tool to generalize land usage across DC's urban landscape. Use codes come from https://opendata.dc.gov/datasets/property-use-code-list-lookup/about as of August 2023. Others can replicate this work by using the following USECODES:
+Commercial: 004, 005, 006, 031, 032, 033, 034, 035, 037, 041, 042, 043, 044, 045, 046, 047, 051, 052, 053, 056, 057, 059, 061, 062, 063, 064, 065, 066, 067, 068, 069, 165, 265, 365, 465
+Industrial: 007, 071, 072, 073, 074, 075, 076, 078, 079
+Institutional: 036, 082, 082, 083, 084, 085, 086, 088, 189
+Mixed: 015, 048, 048, 049, 058, 126, 127
+Recreational: 087
+Religious: 081
+Residential: 001, 002, 003, 011, 012, 013, 014, 016, 017, 019, 021, 022, 023, 024, 025, 026, 027, 028, 029, 038, 039, 116, 117, 216, 217, 316, 416, 417, 516, 995
+Vacant: 091, 092, 093, 094, 095, 096, 097, 191, 192, 193, 194, 195, 196, 197
+Other: 000, 008, 018, 089, 214</supplinf>
+        </descript>
+        <status>
+            <progress>Complete</progress>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.119793</westbc>
+                <eastbc>-76.909148</eastbc>
+                <northbc>38.995960</northbc>
+                <southbc>38.791637</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <place>
+                <placekt>None</placekt>
+                <placekey>washington dc</placekey>
+                <placekey>district of columbia</placekey>
+                <placekey>dc</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE. 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 731-3419</cntvoice>
+                <cntfax>(202) 727-5660</cntfax>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Office of the Chief Technology Officer</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Existing Land Use</enttypl>
+                <enttypd>Existing Land Use</enttypd>
+                <enttypds>OCTO</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SQUARE</attrlabl>
+                <attrdef>Square of property</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SUFFIX</attrlabl>
+                <attrdef>Suffix of property</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>RES</attrlabl>
+                <attrdef>Reservation number</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PAR</attrlabl>
+                <attrdef>Parcel number</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LOT</attrlabl>
+                <attrdef>Lot of property</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LOT_TYPE</attrlabl>
+                <attrdef>Denotes type of lot</attrdef>
+                <attrdefs>OTR</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>Record Lot</edomvd>
+                                                						
+                        
+                        <edomvds>OTR</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>Tax Lot</edomvd>
+                                                						
+                        
+                        <edomvds>OTR</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>Air Rights</edomvd>
+                                                						
+                        
+                        <edomvds>OTR</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>Reservation</edomvd>
+                                                						
+                        
+                        <edomvds>OTR</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>5</edomv>
+                                                						
+                        
+                        <edomvd>Appropriation</edomvd>
+                                                						
+                        
+                        <edomvds>OTR</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>6</edomv>
+                                                						
+                        
+                        <edomvd>Parcel</edomvd>
+                                                						
+                        
+                        <edomvds>OTR</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SSL</attrlabl>
+                <attrdef>Complete Square Suffix Lot of property, including leading zeros.</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>USECODE</attrlabl>
+                <attrdef>Property use code. Visit https://opendata.dc.gov/datasets/property-use-code-list-lookup/about for more information.</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PrimaryLU</attrlabl>
+                <attrdef>Generalized land use designation provided by the Office of Planning</attrdef>
+                <attrdefs>OP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Commercial</edomv>
+                                                						
+                        
+                        <edomvd>Services, goods, offices.</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Industrial</edomv>
+                                                						
+                        
+                        <edomvd>Places where production of goods/materials occurs.</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Institutional</edomv>
+                                                						
+                        
+                        <edomvd>Medical, educational, dormitories, government, non-profit, public assistance, halfway houses, public museums, monuments, public zoos, etc.</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Mixed</edomv>
+                                                						
+                        
+                        <edomvd>Places where more than one primary land-use occurs.</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Other</edomv>
+                                                						
+                        
+                        <edomvd>Use is unclear, vague, not defined.</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Recreational</edomv>
+                                                						
+                        
+                        <edomvd>Parks (playgrounds, dog parks, national parks, space used for leisure/recreation, etc.), Spectator and public athletic facilities, Athletic training facilities that are not privately owned/commercial training centers (Golds' Gym, etc.).</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Religious</edomv>
+                                                						
+                        
+                        <edomvd>Places of worship by legally recognized religious organizations.</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Residential</edomv>
+                                                						
+                        
+                        <edomvd>Place of private residence.</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Vacant</edomv>
+                                                						
+                        
+                        <edomvd>Abandoned, vacant, empty, not in use due to some reason (permit issues, polutants, existing structure like railroad tracks or storage tanks), etc.</edomvd>
+                                                						
+                        
+                        <edomvds>OP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DESCRIPTION</attrlabl>
+                <attrdef>Description of the land-use code associated with the value in the CODE field</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GIS_ID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LONG_DESCRIPTION</attrlabl>
+                <attrdef>More detailed description of land-use code</attrdef>
+                <attrdefs>OTR</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20230811</metd>
+        <metfrd>20230301</metfrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                    <cntper>Alexandre Santos</cntper>
+                </cntorgp>
+                <cntpos>GIS IT Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntemail>alexandre.santos@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
