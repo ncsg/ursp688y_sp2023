@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <title>Metro Bus Lines</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset represents Washington Metropolitan Area Transit Authority (WMATA) bus routes. It includes regular and pattern routes.</abstract>
+            <purpose>Bus routes in Washington DC Metropolitan area. Routes are subject to change. Check https://www.wmata.com for the most recent routes and times.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20180909</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Washington DC Metropolitan Area</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Quarterly</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.454325</westbc>
+                <eastbc>-76.715626</eastbc>
+                <northbc>39.156175</northbc>
+                <southbc>38.690696</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>transit</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Arlington County</placekey>
+                <placekey>City of Alexandria</placekey>
+                <placekey>City of Fairfax</placekey>
+                <placekey>City of Falls Church</placekey>
+                <placekey>District of Columbia</placekey>
+                <placekey>Fairfax County</placekey>
+                <placekey>Loudoun County</placekey>
+                <placekey>Montgomery County</placekey>
+                <placekey>Prince George's County</placekey>
+                <placekey>Prince William County</placekey>
+                <placekey>Washington DC</placekey>
+                <placekey>Washington DC Metropolitan Area</placekey>
+                <placekey>WMATA Service Area</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington Metropolitan Area Transit Authority</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>physical</addrtype>
+                    <address>300 7th Street SW</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20024</postal>
+                </cntaddr>
+                <cntvoice>(202) 637-7000</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Washington Metropolitan Area Transit Authority</datacred>
+        <native>Esri ArcGIS 13.0.3.36057</native>
+    </idinfo>
+    <dataqual>
+        <complete>The Bus Routes and Bus Patterns feature class contains all routes and patterns as defined by BPLN and BOSC as of the date of the last service change. Service changes happen quarterly and all bus-related GIS feature classes are current as of last effective date.
+All attributes contained within the feature class were decided upon by WMATA stakeholders and deemed of significant enough business value to warrant inclusion in the dataset.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>The horizontal accuracy of the feature class is identical to that of the source data, NavTEQ Streets.
+
+From NavTEQ: Roads and ferries cannot share geometry with railways, runways, country boundaries, or any water links. Additionally, Building/Landmark polygons which require sufficient detail to make the building recognizable, can never share geometry with navigable links. All other cartography may share geometry based on the generalization rules. For example, a road link or railroad link may also have a feature of state park or hospital. Cartography and administrative boundary features in Detailed City areas can be generalized up to 25 meters/82 feet (except built-up areas) and 100 meters/328 feet for built-up areas Cartography and administrative boundary features in Inter-Town areas can be generalized up to 250 meters/820 feet (except built-up areas) 100 meters/328 feet for built-up areas.</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>Staff updated 2018 September Service Changes.</procdesc>
+                <procdate>20180909</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Office of the Chief Technology Officer</cntorg>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>unknown</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Staff updated the dataset with new file from WMATA</procdesc>
+                <procdate>20200313</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Office of the Chief Technology Officer</cntorg>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>unknown</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Staff updated the dataset using the latest information from WMATA</procdesc>
+                <procdate>20210514</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Office of the Chief Technology Officer</cntorg>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>unknown</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New file from WMATA.</procdesc>
+                <procdate>20230728</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>538</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DCGIS.BusLineLn</enttypl>
+                <enttypd>Bus route and information</enttypd>
+                <enttypds>WMATA</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RT_D</attrlabl>
+                <attrdef>Concatenation of ROUTE and DIRECTION for the pattern. 
+
+E.G. - J4_E equates to Route J4 Eastbound.</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Concatenation of ROUTE and DIRECTION for the pattern. 
+
+E.G. - J4_E equates to Route J4 Eastbound.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROUTE</attrlabl>
+                <attrdef>Metrobus Route</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Metrobus Route in which the pattern is contained</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DIRECTION</attrlabl>
+                <attrdef>Travel direction of the pattern, as assigned by BPLN/BOSC</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Travel Direction Values.</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>N</edomv>
+                                                						
+                        
+                        <edomvd>North</edomvd>
+                                                						
+                        
+                        <edomvds>BPLN Revenue Route Description of route, BOSC Clever Analyst DB (RouteVars table)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>South</edomvd>
+                                                						
+                        
+                        <edomvds>BPLN Revenue Route Description of route, BOSC Clever Analyst DB (RouteVars table)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>E</edomv>
+                                                						
+                        
+                        <edomvd>East</edomvd>
+                                                						
+                        
+                        <edomvds>BPLN Revenue Route Description of route, BOSC Clever Analyst DB (RouteVars table)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>W</edomv>
+                                                						
+                        
+                        <edomvd>West</edomvd>
+                                                						
+                        
+                        <edomvds>BPLN Revenue Route Description of route, BOSC Clever Analyst DB (RouteVars table)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CC</edomv>
+                                                						
+                        
+                        <edomvd>Loop Route (Start and End at same point)</edomvd>
+                                                						
+                        
+                        <edomvds>BPLN Revenue Route Description of route, BOSC Clever Analyst DB (RouteVars table)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TYPE</attrlabl>
+                <attrdef>Pattern type.</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Value is determined by the hierarchy assigned within the Trapeze Route Variations table (BOSC)</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>R</edomv>
+                                                						
+                        
+                        <edomvd>Regular route. Assigned to the regular pattern the bus takes within the route (per direction). Corresponds with a non-variation (regular) pattern in trapeze.</edomvd>
+                                                						
+                        
+                        <edomvds>BOSC (RouteVars Table)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>P</edomv>
+                                                						
+                        
+                        <edomvd>Alternate pattern, corresponds with a variation pattern in Trapeze</edomvd>
+                                                						
+                        
+                        <edomvds>BOSC (RouteVars Table)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ORIGIN</attrlabl>
+                <attrdef>Landmark/area of where the pattern begins</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Landmark/area of where the pattern begins. Value can be the following:
+
+1. Bus Stop (On and At Streets) 
+2. Transit Center (e.g. - Pentagon) 
+3. Nearby Landmark  (e.g. - Leisure World)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DESTINATION</attrlabl>
+                <attrdef>Landmark/area of where the pattern ends.</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Landmark/area of where the pattern ends. Value can be the following:
+
+1. Bus Stop (On and At Streets) 
+2. Transit Center (e.g. - Pentagon)
+3. Nearby Landmark  (e.g. - Leisure World)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DESCRIPTION</attrlabl>
+                <attrdef>Bus Route Line Description</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Text description of the line in which the pattern falls within.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>EGIS_ID</attrlabl>
+                <attrdef>WMATA enterprise GIS identifier. Provides link to Oracle DocLink tables (for schedules in MetroView)</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique geographic feature identifier assigned within the WMATA enterprise GIS</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STATE</attrlabl>
+                <attrdef>State Jurisdiction of the pattern</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>State abbreviations</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>DC</edomv>
+                                                						
+                        
+                        <edomvd>District of Columbia</edomvd>
+                                                						
+                        
+                        <edomvds>BPLN / BOSC</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MD</edomv>
+                                                						
+                        
+                        <edomvd>Maryland</edomvd>
+                                                						
+                        
+                        <edomvds>BPLN / BOSC</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>VA</edomv>
+                                                						
+                        
+                        <edomvd>Virginia</edomvd>
+                                                						
+                        
+                        <edomvds>BPLN / BOSC</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>REGIONAL</attrlabl>
+                <attrdef>Regional route designation (from Line-Route Matrix)</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>REG</edomv>
+                                                						
+                        
+                        <edomvd>Region service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Regional bus route designation</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NON</edomv>
+                                                						
+                        
+                        <edomvd>Non-regional service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LIN_ID</attrlabl>
+                <attrdef>Largest division of bus routing, which contains multiple routes. Used in Trapeze.</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Numerical ID of the line in which the pattern falls within.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SERVICE_TYPE</attrlabl>
+                <attrdef>Type of service provided by the pattern</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Crosstown</edomv>
+                                                						
+                        
+                        <edomvd>Bus route designed to connect outlying areas to each other, or enable transfer connections between routes, but does not enter the Central Business District (i.e. downtown)</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Bus service type</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Shuttle</edomv>
+                                                						
+                        
+                        <edomvd>Employee or School Shuttle service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Radial</edomv>
+                                                						
+                        
+                        <edomvd>Bus route designed to connect the outlying areas to the Central Business District (i.e. downtown)</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>EXPRESS</attrlabl>
+                <attrdef>Defines whether the pattern runs as an express route</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Y</edomv>
+                                                						
+                        
+                        <edomvd>Express route</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Express bus route designation</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>N</edomv>
+                                                						
+                        
+                        <edomvd>No express Route</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M_F</attrlabl>
+                <attrdef>Defines if the pattern is in service on Monday through Friday.</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Y</edomv>
+                                                						
+                        
+                        <edomvd>Weekday service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Weekday bus route designation</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>N</edomv>
+                                                						
+                        
+                        <edomvd>No weekday service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SAT</attrlabl>
+                <attrdef>Saturday service</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Y</edomv>
+                                                						
+                        
+                        <edomvd>Saturday service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Saturday bus route designation</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>N</edomv>
+                                                						
+                        
+                        <edomvd>No Saturday service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SUN</attrlabl>
+                <attrdef>Defines if the pattern is in service on Sunday</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Y</edomv>
+                                                						
+                        
+                        <edomvd>Sunday service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sunday bus route designation</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>N</edomv>
+                                                						
+                        
+                        <edomvd>No Sunday service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SCHOOL</attrlabl>
+                <attrdef>School route service</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Y</edomv>
+                                                						
+                        
+                        <edomvd>School route service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Defines if the pattern runs as a school route. 
+
+Domain set to either "Y" or "N"</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>N</edomv>
+                                                						
+                        
+                        <edomvd>No school route service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STR_DATE</attrlabl>
+                <attrdef>Service start date</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Effective Start Date of the pattern
+
+Defined as the day of the service change, or latest push to SDE. All start dates must have a time of 03:00:00 AM</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>END_DATE</attrlabl>
+                <attrdef>Service end date</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Effective End Date of the Pattern
+
+Defined by the service change, or the next push to SDE. If the pattern is current, it will have an assumed end date of 9/9/9999. All end dates must have a time of 02:59:00 AM.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROUTEKEY</attrlabl>
+                <attrdef>Assigned ROUTEKEY ID in Trapeze.</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Retrieved from BOSC RouteVars table (Clever Analyst DB). ID is unique when querying all current operating patterns.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ORBCAD_GFI_RTE</attrlabl>
+                <attrdef>Orbcad/GFI route number</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The Bus Planning Office has historically used Alpha- Numeric or Numeric designations or symbols for bus routes both within the office in various schedule documents, for the published timetables as well as for the electronic bus destination signs.  However, in order to identify bus routes in the Cubic/GFI fare collection database, the interface between the GPS system and the Farebox requires that the routes be numerically coded and limited to a string of 5 characters.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROUTES_PER_LINE</attrlabl>
+                <attrdef>Routes per Line</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>A bus Line is composed of a either a single bus route or multiple bus routes that share a common street segment or trunk with varied branches and terminal points</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SAT_SS_SERVICE</attrlabl>
+                <attrdef>Saturday supplement schedule</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Defines if the routes operate Saturday supplement schedule.
+
+On Federal Government Workforce Holidays – Columbus Day, Veterans Days, MLK Day and President’s Day, only 4 days a year,  WMATA run an adjusted level of bus service which is less than a regular weekday but more than a regular Satuday Schedule</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Y</edomv>
+                                                						
+                        
+                        <edomvd>Saturday supplement schedule</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>N</edomv>
+                                                						
+                        
+                        <edomvd>No Saturday supplement schedule</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BPLN_SECTOR</attrlabl>
+                <attrdef>Bus planning sector ID</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>WMATA parsed its local jurisdictions into quadrants, zones or sectors using natural or roadway boundaries.  The intent was to evaluate service demand and performance for a neighborhood, or specific geographic area with respect to the subset of routes serving the area.   The population density the street network and/or other physical or socio-economic characteristics may help define the boundaries that were established.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BPLN_SECTOR_DESCR</attrlabl>
+                <attrdef>Bus planning sector description</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Bus planning sector name or description.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CORRIDOR_ID</attrlabl>
+                <attrdef>Corridor ID</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The Corridor can be a sub-jurisdictional or inter-jurisdiction designation for a service area that aligns along one or more major arterials and or parallel roadways which are serviced by one or bus routes or bus lines. Corridors are typically more elongated or extended than service sectors.  The street network and the bus route alignment nearly exclusively define the boundaries. Each Corridor has an ID number. Each Corridor has an ID number.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CORRIDOR_DESCRIPTION</attrlabl>
+                <attrdef>Corridor description</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Corridor description</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROUTES_PER_CORRIDOR</attrlabl>
+                <attrdef>Routes per Corridor</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>A corridor can encompass one or more Bus Lines or Bus Routes.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SERVICE_PLAN_DESCR</attrlabl>
+                <attrdef>Service plan designation</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Each Bus Line operates at various levels of service, defined  in terms of service days scheduled, daily starting and ending times (or hourly span of daily service), average trip frequency and average ridership per day, per hour, per trip. 
+The Service Plan designation indicates that the average daily ridership of a given bus line falls within a certain range that is common among other lines sharing the same Service Plan.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>REV_TYPE</attrlabl>
+                <attrdef>Revenue service type</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Revenue service type</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Revenue</edomv>
+                                                						
+                        
+                        <edomvd>Public Passenger Service</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Non-Revenue</edomv>
+                                                						
+                        
+                        <edomvd>Bus Operator Shuttles</edomvd>
+                                                						
+                        
+                        <edomvds>WMATA</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GIS_ID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GEOMETRYSOURCE</attrlabl>
+                <attrdef>Geometry Source</attrdef>
+                <attrdefs>WMATA</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Street line geometry source</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CREATOR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CREATED</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EDITOR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EDITED</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>unknown</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+    </distinfo>
+    <metainfo>
+        <metd>20230725</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
