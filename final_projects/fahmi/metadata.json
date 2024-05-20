@@ -1,0 +1,68 @@
+{
+    "release": {
+        "id": "acs2022_5yr",
+        "name": "ACS 2022 5-year",
+        "years": "2018-2022"
+    },
+    "tables": {
+        "B17026": {
+            "columns": {
+                "B17026001": {
+                    "indent": 0,
+                    "name": "Total:"
+                },
+                "B17026002": {
+                    "indent": 1,
+                    "name": "Under .50"
+                },
+                "B17026003": {
+                    "indent": 1,
+                    "name": ".50 to .74"
+                },
+                "B17026004": {
+                    "indent": 1,
+                    "name": ".75 to .99"
+                },
+                "B17026005": {
+                    "indent": 1,
+                    "name": "1.00 to 1.24"
+                },
+                "B17026006": {
+                    "indent": 1,
+                    "name": "1.25 to 1.49"
+                },
+                "B17026007": {
+                    "indent": 1,
+                    "name": "1.50 to 1.74"
+                },
+                "B17026008": {
+                    "indent": 1,
+                    "name": "1.75 to 1.84"
+                },
+                "B17026009": {
+                    "indent": 1,
+                    "name": "1.85 to 1.99"
+                },
+                "B17026010": {
+                    "indent": 1,
+                    "name": "2.00 to 2.99"
+                },
+                "B17026011": {
+                    "indent": 1,
+                    "name": "3.00 to 3.99"
+                },
+                "B17026012": {
+                    "indent": 1,
+                    "name": "4.00 to 4.99"
+                },
+                "B17026013": {
+                    "indent": 1,
+                    "name": "5.00 and over"
+                }
+            },
+            "denominator_column_id": "B17026001",
+            "title": "Ratio of Income to Poverty Level of Families in the Past 12 Months",
+            "universe": "Families"
+        }
+    }
+}
